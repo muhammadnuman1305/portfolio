@@ -24,7 +24,7 @@ const SocialIcons = () => {
       <a
         className="icon"
         style={styles.icon}
-        href="https://github.com/mdyeates"
+        href="https://github.com/muhammadnuman1305"
       >
         {/* GitHub Icon */}
         <motion.i
@@ -39,7 +39,7 @@ const SocialIcons = () => {
       <a
         className="icon"
         style={styles.icon}
-        href="https://www.linkedin.com/in/mdyeates/"
+        href="https://www.linkedin.com/in/numan-zahid-91a819228/"
       >
         {/* LinkedIn Icon */}
         <motion.i
@@ -54,7 +54,7 @@ const SocialIcons = () => {
       <a
         className="icon"
         style={styles.icon}
-        href="https://www.instagram.com/michael.yeates/"
+        href="https://www.instagram.com/numan_zahid_/"
       >
         {/* Instagram Icon */}
         <motion.i
