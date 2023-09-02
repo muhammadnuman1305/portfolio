@@ -21,7 +21,7 @@
     <br/>
 Crafting Connections through Code: Explore my journey, projects, and passions in this immersive portfolio powered by React.<br/>
       <br/>
-      Built by: Michael Yeates
+      Built by: Numan Zahid
       <br/>
       <br/>
       <a href="https://github.com/mdyeates/my-portfolio"><strong>Explore the docs »</strong></a>
