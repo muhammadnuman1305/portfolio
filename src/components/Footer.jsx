@@ -50,20 +50,23 @@ const Footer = () => {
       <SocialIcons />
 
       {/* GitHub repository link */}
-      <a className="footer-link" href="https://github.com/mdyeates/my-portfolio">
+      <a
+        className="footer-link"
+        href="https://github.com/mdyeates/my-portfolio"
+      >
         <span>
           <AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked />
           {gitHubInfo.forks} - Give this project a star!
         </span>
         <p>
-          <span>▷</span> Designed and built by Michael Yeates &copy; {currentYear}
+          <span>▷</span> Designed and built by Numan Zahid &copy; {currentYear}
         </p>
         <p>All views and work are my own</p>
       </a>
 
       {/* Buy Me A Coffee link */}
       <motion.a
-        href="https://www.buymeacoffee.com/mdyeates"
+        href="https://www.buymeacoffee.com/numanzahid"
         initial="initial"
         whileHover="hover"
         whileTap="tap"

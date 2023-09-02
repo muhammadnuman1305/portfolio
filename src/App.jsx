@@ -38,7 +38,7 @@ import PageNotFound from "./pages/404/PageNotFound";
 function App() {
   // Personal details for the user
   const personalDetails = {
-    name: "Michael Yeates",
+    name: "Numan Zahid",
     location: "United Kingdom",
     email: "michael-yeates@outlook.com",
     brand:
@@ -74,7 +74,8 @@ function App() {
 
     // Listen for visibility change events
     window.addEventListener("visibilitychange", handleTabChange);
-    return () => window.removeEventListener("visibilitychange", handleTabChange);
+    return () =>
+      window.removeEventListener("visibilitychange", handleTabChange);
   }, [location, originalTitle]);
 
   return (
@@ -88,9 +89,20 @@ function App() {
           <Header />
           {/* Define routes */}
           <Routes location={location} key={location.pathname}>
-            <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
+            <Route
+              path="/"
+              element={
+                <Landing
+                  name={personalDetails.name}
+                  tagline={personalDetails.tagline}
+                />
+              }
+            />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/resume" element={<Resume brand={personalDetails.brand} />} />
+            <Route
+              path="/resume"
+              element={<Resume brand={personalDetails.brand} />}
+            />
 
             <Route
               path="/contact"
@@ -103,7 +115,10 @@ function App() {
               }
             />
             <Route path="/page-not-found" element={<PageNotFound />} />
-            <Route path="/portfolio/:projectTitle" element={<ProjectDetails />} />
+            <Route
+              path="/portfolio/:projectTitle"
+              element={<ProjectDetails />}
+            />
             {/* Fallback route for unknown paths */}
             <Route path="*" element={<Navigate to="/page-not-found" />} />
           </Routes>
