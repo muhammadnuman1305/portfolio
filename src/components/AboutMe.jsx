@@ -62,7 +62,8 @@ const AboutMe = ({ name }) => {
                 Nice to meet you! 👋🏻
               </motion.h4>
               <motion.h5 variants={paragraphVariants}>
-                I'm a Software Engineer at Amazon.
+                I'm a Full Stack Software Developer
+                <span style={{ color: "var(--hl-color)" }}>.</span>
               </motion.h5>
 
               {/* Display content description with animation */}
@@ -74,9 +75,8 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                  <span style={{ color: "var(--hl-color)" }}> </span>I have a
-                  strong commitment to craft exceptional user experiences. Armed
-                  with a Bachelor's degree in{" "}
+                  I have a strong commitment to craft exceptional user
+                  experiences. Armed with a Bachelor's degree in{" "}
                   <span style={{ color: "var(--hl-color)" }}>
                     {" "}
                     Computer Science{" "}

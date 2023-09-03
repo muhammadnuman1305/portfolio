@@ -31,7 +31,7 @@ const Footer = () => {
       {/* GitHub repository link */}
       <a
         className="footer-link"
-        href="https://github.com/mdyeates/my-portfolio"
+        href="https://github.com/muhammadnuman1305/portfolio"
       >
         <p>
           <span>▷</span> Designed and built by Numan Zahid &copy; {currentYear}
