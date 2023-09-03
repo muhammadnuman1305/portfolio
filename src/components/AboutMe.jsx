@@ -74,37 +74,34 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                  Today, I find myself knee-deep in an exhilarating chapter of
-                  my journey as a degree apprentice at the tech titan,{" "}
-                  <span style={{ color: "var(--hl-color)" }}> Amazon</span>. My
-                  playground? The captivating universe of{" "}
-                  <span style={{ color: "var(--hl-color)" }}> Alexa</span>.
-                </motion.p>
-                <br />
-                <motion.p variants={paragraphVariants}>
-                  Here, I don my{" "}
+                  <span style={{ color: "var(--hl-color)" }}> </span>I have a
+                  strong commitment to craft exceptional user experiences. Armed
+                  with a Bachelor's degree in{" "}
                   <span style={{ color: "var(--hl-color)" }}>
                     {" "}
-                    problem-solving{" "}
+                    Computer Science{" "}
                   </span>
-                  cape and dive headfirst into real-world challenges, all while
-                  relentlessly pursuing a{" "}
-                  <span style={{ color: "var(--hl-color)" }}>
-                    {" "}
-                    Digital and Technology Solutions
-                  </span>{" "}
-                  degree from the University of Roehampton. So here I am,
-                  juggling bits of binary and real-life conundrums, all while
-                  crafting my own success story.
+                  , I've honed my proficiency in a wide array of technologies
+                  including JavaScript, TypeScript, React, Node, Python, MongoDB
+                  and more.
                 </motion.p>
                 <br />
                 <motion.p variants={paragraphVariants}>
-                  Life is a kaleidoscope of experiences, far beyond the confines
-                  of work. When code isn't my focus, I'm conquering cycling
-                  routes, feeling the wind on spirited runs, and fueling my love
-                  for Formula One. Amid serene moments, I transform into a film
-                  aficionado, seeking films that kindle inspiration and provoke
-                  thought.
+                  On a mission to transform complex concepts into intuitive and
+                  captivating digital experiences. My passion lies in shaping
+                  the future of web development, and I eagerly seek new
+                  opportunities & collaborations to make a profound impact in
+                  the
+                  <span style={{ color: "var(--hl-color)" }}>
+                    {" "}
+                    digital landscape.{" "}
+                  </span>
+                </motion.p>
+                <br />
+                <motion.p variants={paragraphVariants}>
+                  When code isn't my focus, I'm conquering cycling routes,
+                  feeling the wind on spirited runs, and fueling my love for
+                  animal
                 </motion.p>
               </motion.div>
 
