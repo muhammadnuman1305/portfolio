@@ -32,11 +32,17 @@
   }
 
   .landingImage {
-    bottom: 0;
     right: 80px;
+    bottom: 55px !important;
   }
 
   .landing .socialIcons {
     flex-direction: column;
+  }
+}
+@media (max-width: 390px) {
+  .landingImage {
+    /* right: -50px !important; */
+    bottom: 100px !important;
   }
 }
