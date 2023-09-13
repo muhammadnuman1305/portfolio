@@ -46,7 +46,7 @@ const Hero = ({ name }) => {
           className="name"
           style={styles.name}
           initial={{ scale: 0.5, opacity: 0 }}
-          animate={{ scale: 1, opacity: 0.7 }}
+          animate={{ scale: 1, opacity: 0.4 }}
           transition={{ delay: 0, duration: 0.5, type: "spring" }}
         >
           {name}
@@ -55,7 +55,7 @@ const Hero = ({ name }) => {
         <motion.div
           className="description"
           initial={{ y: -100, opacity: 0 }}
-          animate={{ y: 0, opacity: 0.7 }}
+          animate={{ y: 0, opacity: 0.4 }}
           transition={{ duration: 0.4, type: "spring" }}
         >
           {/* Typewriter effect for dynamic text animation without a cursor */}
