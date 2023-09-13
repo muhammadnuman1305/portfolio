@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo.svg";
+// import logo from "../images/logo.svg";
+import logo from "../images/NZ.svg";
+
 import NavLinks from "./NavLinks";
 
 /**
@@ -17,7 +19,7 @@ const Header = () => {
         {/* Animated logo */}
         <motion.div
           initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
+          animate={{ x: 0, opacity: 0.7 }}
           transition={{ delay: 2, duration: 0.5, type: "spring" }}
         >
           {/* Animated logo image */}

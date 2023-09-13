@@ -144,9 +144,12 @@ header {
 }
 
 .logo {
-  height: 30px;
+  height: 50px;
 }
-
+.logoLoader {
+  height: 40%;
+  opacity: 0.9;
+}
 .links {
   display: none;
   position: absolute;
