@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import SocialIcons from "./SocialIcons";
 
 /**
@@ -14,14 +14,14 @@ const Footer = () => {
   // State to hold GitHub information
 
   // Variants for button animation
-  const buttonVariants = {
-    hover: {
-      scale: 1.05,
-    },
-    tap: {
-      scale: 1,
-    },
-  };
+  // const buttonVariants = {
+  //   hover: {
+  //     scale: 1.05,
+  //   },
+  //   tap: {
+  //     scale: 1,
+  //   },
+  // };
 
   return (
     <footer>
