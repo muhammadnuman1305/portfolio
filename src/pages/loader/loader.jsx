@@ -69,28 +69,6 @@ const Loader = ({ setShowLoader }) => {
       }}
     >
       <motion.img
-        // whileHover={{ scale: 1.05 }}
-        // whileTap={{ scale: 0.9 }}
-        // initial={{ scale: 0.1 }} // Initial scale (small)
-        // animate={{ scale: 1.7 }}
-        // ---------
-        // initial={{ opacity: 0, rotate: 0 }} // Initial opacity and rotation
-        // animate={{
-        //   opacity: [1, 0.5, 1], // Animate opacity in a loop
-        //   rotate: [0, 360], // Animate rotation in a loop from 0 to 360 degrees
-        //   transition: { duration: 2, repeat: Infinity, repeatType: "reverse" }, // Loop the animation
-        // }}
-        // ------
-        // initial={{ y: -50 }} // Initial position above its normal position
-        // animate={{
-        //   y: [0, -20, 0], // Animate vertical position in a loop
-        //   transition: {
-        //     duration: 1.5,
-        //     repeat: Infinity,
-        //     repeatType: "reverse",
-        //   }, // Loop the animation
-        // }}
-        // ------
         initial={{ x: 0 }} // Initial position
         animate={{
           x: [-5, 5, -5, 5, 0], // Animate horizontal position in a loop
