@@ -62,7 +62,11 @@ const LightDarkToggle = () => {
 
   return (
     <button className="toggleMode" onClick={toggleMode}>
-      {islightMode ? <CiLight className="toggleIcon" /> : <MdDarkMode className="toggleIcon" />}
+      {islightMode ? (
+        <CiLight className="toggleIcon" />
+      ) : (
+        <MdDarkMode className="toggleIcon" />
+      )}
     </button>
   );
 };

@@ -61,12 +61,13 @@ const Hero = ({ name }) => {
           {/* Typewriter effect for dynamic text animation without a cursor */}
           <Typewriter
             className="description"
+            color="red"
             options={{
               cursor: "",
             }}
             onInit={(typewriter) => {
               typewriter
-                .changeDelay(50)
+                .changeDelay(120)
                 .typeString("Software Engineer")
                 .start();
             }}
@@ -78,7 +79,7 @@ const Hero = ({ name }) => {
         <motion.img
           className="landingImage"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.5 }}
+          animate={{ opacity: 0.7 }}
           transition={{ delay: 1, duration: 1.5, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
