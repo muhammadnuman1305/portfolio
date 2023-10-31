@@ -69,7 +69,7 @@ const SocialIcons = () => {
       <a
         className="icon"
         style={styles.icon}
-        href="https://twitter.com/mdyeates"
+        href="https://twitter.com/numan11"
       >
         {/* Twitter Icon */}
         <motion.i

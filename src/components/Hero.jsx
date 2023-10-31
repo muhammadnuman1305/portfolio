@@ -61,12 +61,13 @@ const Hero = ({ name }) => {
           {/* Typewriter effect for dynamic text animation without a cursor */}
           <Typewriter
             className="description"
+            color="red"
             options={{
               cursor: "",
             }}
             onInit={(typewriter) => {
               typewriter
-                .changeDelay(50)
+                .changeDelay(120)
                 .typeString("Software Engineer")
                 .start();
             }}
