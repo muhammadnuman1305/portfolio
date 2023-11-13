@@ -39,7 +39,7 @@ function App() {
   // Personal details for the user
   const personalDetails = {
     name: "Numan Zahid",
-    location: "United Kingdom",
+    location: "🇵🇰 Pakistan",
     email: "numanzahid91@gmail.com",
     brand:
       "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
