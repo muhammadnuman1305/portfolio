@@ -161,6 +161,11 @@ const Form = () => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
+      <input
+        type="hidden"
+        name="subject"
+        value="Message from -PORTFOLIO-"
+      ></input>
       <h4 className="contentTitle">Message Me</h4>
       {/* Input fields */}
       <div
