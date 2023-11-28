@@ -1,14 +1,14 @@
 [
   {
-    "title": "Musotic",
+    "title": "Spotify Reviews",
     "description": "social media platform",
     "image": "/projectImages/bike.png",
     "image2": "/projectImages/cyclingfamily.jpeg",
     "image3": "/projectImages/routes3.png",
-    "body": "Musotic is the bridge between your Spotify experience and an interactive, vibrant music community. With Musotic, you can infuse your Spotify journey with a new level of engagement. Share your music insights through reviews, engage in dynamic conversations with fellow music enthusiasts, and uncover the depths of your personal Spotify usage data. This unique platform combines the joy of music exploration with social interaction and personalized analytics, offering an all-encompassing experience. Join us at Musotic to rekindle your passion for music and discover a world where music isn't just heard, it's experienced in a whole new way.",
+    "body": "Spotify Reviews is the bridge between your Spotify experience and an interactive, vibrant music community. With Musotic, you can infuse your Spotify journey with a new level of engagement. Share your music insights through reviews, engage in dynamic conversations with fellow music enthusiasts, and uncover the depths of your personal Spotify usage data. This unique platform combines the joy of music exploration with social interaction and personalized analytics, offering an all-encompassing experience. Join us at Musotic to rekindle your passion for music and discover a world where music isn't just heard, it's experienced in a whole new way.",
     "technologies": ["React-js", "Node", "MUI", "CSS"],
-    "github": "https://github.com/falconitconsultant/musotic-react",
-    "deployed": "https://musotic-dev.falconweb.app/",
+    "github": "https://github.com/",
+    "deployed": "https://numanzahid.netlify.app/contact",
     "bgcolor": "var(--hl2-color)",
     "id": "1"
   },
@@ -67,15 +67,15 @@
   },
 
   {
-    "title": "SoundWave",
+    "title": "Wave Generator",
     "description": "Create Custom Poster",
     "image": "/projectImages/planner.png",
     "image2": "/projectImages/wavy.jpg",
     "image3": "/projectImages/planner3.png",
     "technologies": ["React", "Node", "MongoDB", "Tailwind", "Bootstrap"],
     "body": "You can search for your favorite songs and transform them into stunning visual sound waves using our innovative canvas functionality. With complete customization options for looks, colors, and styles, you can craft a unique piece of art that resonates with your music preferences. What's more, you can order high-quality, printable posters of your creations, perfect for adding a touch of musical art to your home or office. Soundwave merges music and visual art, enabling you to turn your favorite songs into captivating, tangible expressions of your musical identity. Unleash your creativity and showcase your passion for music with Soundwave.",
-    "github": "https://github.com/falconitconsultant/soundwave-react",
-    "deployed": "https://www.walltonez.com/",
+    "github": "https://github.com/falconitconsultant/",
+    "deployed": "https://numanzahid.netlify.app/contact",
     "bgcolor": "#3e67ff",
     "id": "6"
   }
