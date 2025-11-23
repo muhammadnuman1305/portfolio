@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { NavLink } from "react-router-dom";
 import Button from "./Button";
-import aboutMeImg from "../images/profileLook.png";
+import aboutMeImg from "../images/profileLook.jpg";
 
 /**
  * Represents the About Me section.
@@ -76,11 +76,27 @@ const AboutMe = ({ name }) => {
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
                   I have a strong commitment to craft exceptional user
-                  experiences. Armed with a Bachelor's degree in{" "}
+                  experiences. Armed with a Masters's degree in{" "}
                   <span style={{ color: "var(--hl-color)" }}>
                     {" "}
                     Computer Science{" "}
                   </span>
+                  from 
+                  
+                  <span style={{ color: "var(--hl-color)" }}>
+                    {" "}
+                    <a 
+  href="https://www.curtin.edu.au/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  style={{ color: "var(--hl-color)", textDecoration: "underline", cursor: "pointer" }}
+>
+  Curtin
+</a>{" "}
+
+
+                  </span>
+               
                   , I've honed my proficiency in a wide array of technologies
                   including JavaScript, TypeScript, React, Node, Python, MongoDB
                   and more.
@@ -101,7 +117,7 @@ const AboutMe = ({ name }) => {
                 <motion.p variants={paragraphVariants}>
                   When code isn't my focus, I'm conquering cycling routes,
                   feeling the wind on spirited runs, and fueling my love for
-                  animal
+                  cats.
                 </motion.p>
               </motion.div>
 

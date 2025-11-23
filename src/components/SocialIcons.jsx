@@ -39,7 +39,7 @@ const SocialIcons = () => {
       <a
         className="icon"
         style={styles.icon}
-        href="https://www.linkedin.com/in/numan-zahid-91a819228/"
+        href="https://www.linkedin.com/in/muhammad-numan-perth/"
       >
         {/* LinkedIn Icon */}
         <motion.i

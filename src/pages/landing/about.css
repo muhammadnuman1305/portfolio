@@ -21,7 +21,7 @@
 .personalImage img {
   height: 250px;
   z-index: 50;
-  border-radius: 250px;
+  border-radius: 50%;
   border: 1px solid var(--hl2-color);
   opacity: 0.5;
   padding: 10px;
